@@ -1,0 +1,189 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  font-family: "Unbounded", sans-serif;
+}
+
+.buttonOuter {
+  border-top: 5px solid pink;
+  border-bottom: 5px solid pink;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttonInner {
+  margin-block: 20px;
+  margin-inline: 200px;
+}
+
+.buttonInner button {
+  margin-right: 50px;
+  padding-inline: 40px;
+  padding-block: 20px;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 500;
+  background-color: pink;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.buttonInner button:hover {
+  color: pink;
+  border: 3px solid pink;
+  background-color: black;
+  font-size: 1rem;
+}
+
+.muscleData {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 5px solid pink;
+  padding: 40px;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  transition: 0.4s;
+  cursor: none;
+}
+
+.muscleData:hover {
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 1.5rem;
+  border: 5px solid black;
+  color: rgb(0, 0, 0);
+  background-color: pink;
+}
+
+.muscleData span {
+  margin-left: 5px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.muscleData h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.muscleData h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.muscleData h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.muscleData h4 {
+  width: 800px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.muscleName {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: pink;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/*Mobile Optimization*/
+
+@media screen and (max-width: 600px) {
+  .main {
+    margin-top: 50px;
+  }
+
+  .buttonOuter {
+    border-top: 5px solid pink;
+    border-bottom: 5px solid pink;
+    width: auto;
+  }
+
+  .buttonInner {
+    margin-block: 10px;
+    margin-inline: 20px;
+  }
+
+  .buttonInner button {
+    margin-right: 10px;
+    padding-inline: 15px;
+    padding-block: 6px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+
+  .buttonInner button:hover {
+    color: pink;
+    border: 3px solid pink;
+    background-color: black;
+    font-size: 11px;
+  }
+
+  .muscleData {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+  }
+
+  .muscleData:hover {
+    font-size: 1.2rem;
+  }
+
+  .muscleData span {
+    margin-left: 2px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+
+  .muscleData h3 {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .muscleData h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.9rem;
+  }
+
+  .muscleData h4 {
+    width: 300px;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .muscleName {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: pink;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+}

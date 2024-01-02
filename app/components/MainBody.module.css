@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: min-content;
+  font-family: "Unbounded", sans-serif;
+}
+
+.head1 {
+  text-decoration: underline;
+  text-decoration-color: pink;
+  border-bottom: 4px solid pink;
+  width: min-content;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-style: italic;
+}
+
+.arrowUp {
+  color: black;
+  font-size: 2.2rem;
+  position: fixed;
+  top: 60%;
+  right: 20px;
+  opacity: 30%;
+  transition: 0.4s;
+}
+
+.arrowUp:hover {
+  opacity: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+  .head1 {
+    text-decoration: underline;
+    text-decoration-color: pink;
+    border-bottom: 4px solid pink;
+    width: min-content;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-style: italic;
+  }
+
+  .arrowUp {
+    color: black;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 60%;
+    right: 20px;
+    opacity: 40%;
+    transition: 0.4s;
+  }
+
+  .arrowUp:hover {
+    opacity: 100%;
+  }
+}
