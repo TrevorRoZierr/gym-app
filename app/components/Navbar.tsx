@@ -49,7 +49,7 @@ const Navbar = () => {
               an online open gym where we teach you exercises based off the
               muscle through API, so you can workout at your local gym. Click
               the buttons below to check different types of exercises based on
-              particular a muscle. If you don't understand what the title means,
+              particular a muscle. If you dont understand what the title means,
               click on it for translation.
             </p>
           </div>
