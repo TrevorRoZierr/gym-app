@@ -1,21 +1,12 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import styles from "./Navbar.module.css";
 import { FaEye } from "react-icons/fa";
-import { title } from "process";
-import { motion, useInView, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
-  const mainControl = useAnimation();
-
   const [titleName, setTitleName] = useState("le cruex famille");
-
-  useEffect(() => {
-    mainControl.start("visible");
-  }, [inView]);
 
   const changeTitle = () => {
     if (titleName === "le cruex famille") {
@@ -34,14 +25,14 @@ const Navbar = () => {
           {<FaEye />} {titleName} {<FaEye />}
         </h1>
       </div>
-      <div className={styles.secondaryMain} ref={ref}>
+      <div className={styles.secondaryMain}>
         <motion.div
           variants={{
             hidden: { opacity: 0, y: 75 },
             visible: { opacity: 1, y: 0 },
           }}
           initial="hidden"
-          animate={mainControl}
+          animate="visible"
           transition={{ duration: 0.5, delay: 0.25 }}
         >
           <div
