@@ -38,7 +38,7 @@
   .head1 {
     text-decoration: underline;
     text-decoration-color: pink;
-    border-bottom: 4px solid pink;
+    border-bottom: 2px solid pink;
     width: min-content;
     font-size: 1.2rem;
     font-weight: 600;

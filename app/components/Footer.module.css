@@ -111,7 +111,7 @@
     color: #f1e9d2;
     margin-bottom: 5px;
     margin-inline: 7px;
-    font-size: 1rem;
+    font-size: 12px;
     font-weight: 600;
     text-transform: capitalize;
     font-style: italic;
@@ -120,8 +120,8 @@
   }
   
   .socialDetails span {
-    margin-left: 10px;
-    font-size: 25px;
+    margin-left: 2px;
+    font-size: 12px;
   }
   
   .socialDetails span:hover {
