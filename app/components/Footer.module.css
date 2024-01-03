@@ -101,7 +101,7 @@
     color: #f1e9d2;
     margin-bottom: 10px;
     margin-right: 20px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     text-transform: capitalize;
     font-style: italic;
@@ -125,10 +125,10 @@
   }
   
   .socialDetails span:hover {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
   
   .socialDetails:hover {
-    font-size: 28px;
+    font-size: 0.8rem;
   }
 }

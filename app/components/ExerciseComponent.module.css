@@ -34,6 +34,7 @@
   letter-spacing: 2px;
   cursor: pointer;
   transition: 0.4s;
+  color: black;
 }
 
 .buttonInner button:hover {
@@ -131,6 +132,7 @@
     font-weight: 600;
     font-size: 9px;
     letter-spacing: 1px;
+    color: black;
   }
 
   .buttonInner button:hover {
@@ -179,7 +181,7 @@
   .muscleName {
     text-align: center;
     margin-top: 50px;
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     font-weight: 600;
     text-decoration: underline;
     text-decoration-color: pink;

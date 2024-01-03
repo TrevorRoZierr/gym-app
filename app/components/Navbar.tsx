@@ -36,16 +36,10 @@ const Navbar = () => {
           transition={{ duration: 0.5, delay: 0.25 }}
         >
           <div
-            style={{
-              width: "700px",
-              borderTop: "5px solid pink",
-              borderBottom: "5px solid pink",
-              padding: "2rem",
-              marginTop: "200px",
-            }}
+            className={styles.about}
           >
             <h2 className={styles.subTitle}>What is this about? </h2>
-            <p className={styles.subTitle} style={{ fontSize: "0.8rem" }}>
+            <p className={styles.subPara}>
               an online open gym where we teach you exercises based off the
               muscle through API, so you can workout at your local gym. Click
               the buttons below to check different types of exercises based on
